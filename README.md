@@ -1,4 +1,4 @@
-# Data-Science
+# Data-Analyst
 <img src="https://raw.githubusercontent.com/ariyan378/Data-Science/main/banner%20(1).svg" width="100%" />
 
 ---
