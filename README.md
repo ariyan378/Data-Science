@@ -1,5 +1,7 @@
 # Data-Analyst
-<img src="https://raw.githubusercontent.com/ariyan378/Data-Science/main/banner%20(1).svg" width="100%" />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ariyan378/Data-Science/main/Data_Analyst_Roadmap_Banner.svg" width="100%" />
+</p>
 
 ---
 
