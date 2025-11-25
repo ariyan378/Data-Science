@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200" role="img" aria-label="Data Analyst Roadmap">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#07103a"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <path id="track" d="M80 120 C200 40, 350 40, 470 120 C590 200, 740 200, 860 120" fill="none" stroke="#243145" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+
+  <g transform="translate(30,30)">
+    <text x="0" y="0" font-family="Inter, Arial, sans-serif" font-size="24" fill="#e6eef8" font-weight="700">Data Analyst Roadmap</text>
+    <text x="0" y="22" font-family="Inter, Arial, sans-serif" font-size="12" fill="#9fb0cc">From fundamentals → practical projects</text>
+  </g>
+
+  <use href="#track"/>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#dbe9ff" text-anchor="middle">
+    <g transform="translate(80,120)">
+      <circle r="16" fill="#1f6feb"/>
+      <text x="0" y="35">Python</text>
+    </g>
+    <g transform="translate(240,80)">
+      <circle r="16" fill="#22c55e"/>
+      <text x="0" y="35">SQL</text>
+    </g>
+    <g transform="translate(370,80)">
+      <circle r="16" fill="#f59e0b"/>
+      <text x="0" y="35">Data Cleaning</text>
+    </g>
+    <g transform="translate(470,120)">
+      <circle r="16" fill="#ef4444"/>
+      <text x="0" y="35">EDA</text>
+    </g>
+    <g transform="translate(630,160)">
+      <circle r="16" fill="#8b5cf6"/>
+      <text x="0" y="35">Visualization</text>
+    </g>
+    <g transform="translate(860,120)">
+      <circle r="16" fill="#06b6d4"/>
+      <text x="0" y="35">ML Basics</text>
+    </g>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle id="movingDot" r="10" fill="#ffffff" opacity="0.95">
+      <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#track"/>
+      </animateMotion>
+    </circle>
+    <circle r="18" fill="none" stroke="#ffffff" stroke-opacity="0.08">
+      <animate attributeName="r" values="16;20;16" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0.85">
+    <g transform="translate(80,120)">
+      <circle r="26" fill="none" stroke="#1f6feb" stroke-opacity="0.08">
+        <animate attributeName="r" values="24;28;24" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g transform="translate(240,80)">
+      <circle r="26" fill="none" stroke="#22c55e" stroke-opacity="0.08">
+        <animate attributeName="r" values="24;28;24" dur="3.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g transform="translate(370,80)">
+      <circle r="26" fill="none" stroke="#f59e0b" stroke-opacity="0.08">
+        <animate attributeName="r" values="24;28;24" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g transform="translate(470,120)">
+      <circle r="26" fill="none" stroke="#ef4444" stroke-opacity="0.08">
+        <animate attributeName="r" values="24;28;24" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g transform="translate(630,160)">
+      <circle r="26" fill="none" stroke="#8b5cf6" stroke-opacity="0.08">
+        <animate attributeName="r" values="24;28;24" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <g transform="translate(860,120)">
+      <circle r="26" fill="none" stroke="#06b6d4" stroke-opacity="0.08">
+        <animate attributeName="r" values="24;28;24" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <text x="980" y="195" font-family="Inter, Arial, sans-serif" font-size="10" fill="#7f9bb3" text-anchor="end">Ariyan • Roadmap</text>
+</svg>
